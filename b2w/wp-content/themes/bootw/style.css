@@ -1,0 +1,393 @@
+/*
+Theme Name: BootW
+Theme URI: https://www.instagram.com/scary.emre/
+Author: Scary Emre
+Author URI: https://www.instagram.com/scary.emre/
+Description: Minimal wordpress theme bootW
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: bootW
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+
+/*------------------------
+# General Settings
+------------------------*/
+body{
+    font-family: 'Open sans', sans-serif;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,a {
+    font-family: 'Niramit', sans-serif;
+    color: #e74c3c;
+}
+p{
+    font-size: 13px;
+}
+h2{font-size: 32px;}
+h3{font-size: 22px;}
+h4{font-size: 16px;}
+h4{font-size: 14px;}
+.section-box{
+    padding: 120px;
+}
+.section-top{
+    margin-bottom: 30px;
+}
+.section-top hr{
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #e74c3c;
+    border: none;
+}
+/*------------------------
+# Navigation
+------------------------*/
+.navbar-brand:hover{
+    color: #e74c3c !important;
+    transition: all .5s;
+}
+nav.navbar-container{
+    padding: 20px 0 20px 0;
+}
+#mainNav {
+    background-color: transparent;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 10px;
+    letter-spacing: 1px;
+    color: white !important;
+    transition: all .5s;
+}
+.nav-link:hover{
+    color: #e74c3c !important;
+}
+nav.shrink {
+    padding: 0;
+    background-color: #e74c3c !important;
+}
+.navbar-brand.shrink,
+.navbar-container.shrink,
+.navbar.fixed-top.shrink,
+.navbar-brand,
+.navbar-container{
+    transition: all .8s ease-in-out;
+}
+nav.shrink .nav-link:hover ,
+nav.shrink .navbar-brand:hover{
+    color: black !important;
+}
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #e74c3c;
+}
+/*------------------------
+# Hero Section
+------------------------*/
+#hero{
+    text-align: center;
+    color: white;
+}
+#hero .container{
+    display: table;
+    height: 100vh;
+}
+#hero .intro-text{
+    display: table-cell;
+    vertical-align: middle;
+}
+#hero .intro-heading {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+#hero .intro-heading span{
+    color: #e74c3c;
+    font-size: 62px;
+}
+.btn-main{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #e74c3c;
+    transition: all .5s;
+}
+.btn-main:hover{
+    background: #e74c3c;
+    border: 2px solid #e74c3c;
+    color: #fff;
+}
+/*------------------------
+# Who We Are Section
+------------------------*/
+#whoweare{
+    background-color: #f2f2f2;
+}
+.whoweare-item{
+    padding: 60px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all .5s;
+}
+.whoweare-item i{
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+.whoweare-item hr{
+    width: 45px;
+    height: 2px;
+    background-color: #e74c3c;
+    border: none;
+    margin: 0 auto;
+}
+.whoweare-item p{
+    margin-top: 20px;
+}
+.whoweare-item:hover{
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+.whoweare-item:hover i,
+.whoweare-item:hover p,
+.whoweare-item:hover h3{
+    color: #fff;
+}
+.whoweare-item:hover hr{
+    background-color: #fff;
+    width: 75px;
+}
+.whoweare-item:hover i{
+    transform: translateY(-10px);
+}
+.whoweare-item i,
+.whoweare-item p,
+.whoweare-item hr,
+.whoweare-item h3{
+    transition: all .5s ease-in-out;
+}
+/*------------------------
+# Statement Section
+------------------------*/
+#statement{
+    text-align: center;
+}
+#statement h4{
+    color: #fff !important;
+}
+/*------------------------
+# Lastest Project Section
+------------------------*/
+#latesprojects{
+    background-color: #f2f2f2;
+}
+#latesprojects .project-text{
+    padding: 30px;
+}
+#latesprojects .project-text hr{
+    border-color: #fff;
+    border-width: 2px;
+    width: 25%;
+    transition: all .5s;
+}
+#latesprojects .project-text:hover hr{
+    width: 50%;
+}
+.bg-orange{
+    background-color: #e74c3c;
+}
+.btn-white{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .5s;
+}
+.btn-white:hover{
+    background-color: #fff;
+    color: #e74c3c;
+}
+/*------------------------
+# Footer Section
+------------------------*/
+footer{
+    background-color: #000;
+    padding: 20px 0 10px;
+    font-size: 14px;
+}
+footer p{
+    margin: 0;
+}
+/*------------------------
+# Inside Hero About Section
+------------------------*/
+.page-image {
+    display: table;
+    width: 100%;
+}
+.page-image-about {
+    text-align: center;
+}
+.page-tittle{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+/*------------------------
+# About Us Section
+------------------------*/
+#aboutus{
+    background-color: #f2f2f2;
+}
+#aboutus .project-text{
+    padding: 30px;
+}
+/*------------------------
+# Team Section
+------------------------*/
+.team-member{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.team-member img{
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+}
+.team-member h4{
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+.team-member p{
+    margin-top: 0;
+}
+ul.social-buttons{
+    margin-bottom: 0;
+}
+ul.social-buttons li a{
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+    transition: all .5s;
+}
+ul.social-buttons li a:hover{
+    background-color: #e74c3c;
+}
+/*------------------------
+# Portfolio Section
+------------------------*/
+.page-image-portfolio {
+    text-align: center;
+}
+.portfolio-item{
+    right: 0;
+    margin: 0 0 15px;
+}
+.portollio-link{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.portfolio-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(231,76,60,0.8);
+    transition: all .5s;
+}
+.portfolio-hover:hover{
+    opacity: 1;
+}
+.portfolio-hover-content{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+.portfolio-hover-content i{
+    margin-top: -12px;
+}
+.portfolio-caption{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+.portfolio-caption h4{
+    margin: 0;
+    text-transform: uppercase;
+}
+.portfolio-caption p{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+/*------------------------
+# Contact Section
+------------------------*/
+.page-image-contact {
+    background-color: rgba(20, 20, 20, 0.8) !important;
+    background-image: url("../img/contactBG.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+.form-group input, 
+.form-group textarea{
+    padding: 20px;
+}
+.form-group input.form-controll{
+    height: auto;
+}
+.form-control:focus{
+    border-color: #e74c3c;
+    box-shadow: none;
+}
+.btn-contact{
+    background-color: #e74c3c;
+    color: #fff;
+}
+.btn-contact:hover{
+    background-color: #fff;
+    color: #e74c3c;
+}
